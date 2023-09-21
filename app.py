@@ -104,4 +104,4 @@ with gr.Blocks(css='style.css') as demo:
         api_name=False,
     )
 
-demo.queue(max_size=20).launch()
+demo.queue(max_size=20).launch(debug=True, max_threads=True, share=True, inbrowser=True)
