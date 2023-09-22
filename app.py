@@ -22,7 +22,7 @@ from model import Model
 from settings import (ALLOW_CHANGING_BASE_MODEL, DEFAULT_MODEL_ID,
                       SHOW_DUPLICATE_BUTTON)
 
-DESCRIPTION = '# DIAMONIK7777 - ControlNet + Individual Model'
+DESCRIPTION = '# DIAMONIK7777 - ControlNet + Download Model'
 DESCRIPTION += '\n<p>Running on CUDA 🥶.</p>'
 if not torch.cuda.is_available():
     DESCRIPTION += '\n<p>Running on CPU 🥶 This demo does not work on CPU.</p>'
